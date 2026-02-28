@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:wght@100..1000&family=Poppins:wght@100..900&family=Prompt:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+/* colors */
+ --color-silver: #CECECE;
+ --color-success-green: #28A745;
+ --color-soft-slate: #E2E7EC;
+ --color-dark-gray: #333333;
+ --color-dim-gray: #666666;
+ --color-dark-moss-green: #304D30;
+ --color-light-sky-blue: #CCE5FF;
+ --color-seafoam-green: #BFE5C7;
+ --color-golden-sand: #FAEDC9;
+ --color-lime-green: #C5EF99;
+ --color-pale-lavendar: #F8ECFE;
+ --color-ice-blue: #F1FAFE;
+ --color-vanilla-cream: #FDF7E8;
+ --color-mint-frost: #E8FFE7;
+ --color-midnight-ink: #020A13;
+ --color-charcoal-slate: #373D45;
+ --color-snow-mist: #F6FAFF;
+ --color-powder-blue-mist: #EDF5FD;
+ --color-arctic-whisper: #F2F8FF;
+ --color-forest-green: #304A2F;
+ --color-sky-veil: #E0EEF9;
+ --color-light-gray: #E8E8E8;
+
+/* font styles */
+  --font-inter: "Inter", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+   --font-prompt: "Prompt", sans-serif;
+}
+
+
