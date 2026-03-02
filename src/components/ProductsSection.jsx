@@ -83,7 +83,6 @@ const ProductsSection = ({ title = "", filters }) => {
         </div>
       </div>
 
-      {/* items-stretch ensures all cards in a row grow to the tallest card's height */}
       <div className="grid lg:grid-cols-4 gap-6 items-stretch">
         {filteredProducts?.map((item) => (
           <div
@@ -91,7 +90,7 @@ const ProductsSection = ({ title = "", filters }) => {
             className="drop-shadow-[#0000001A] bg-white flex flex-col rounded-xl border border-light-gray cursor-pointer h-full"
             onClick={() => navigate(`/products/${item?._id}`)}
           >
-            {/* Image area — fixed height so images are always aligned */}
+
             <div className="p-4 flex items-center justify-center h-[200px]">
               <img
                 src={fallbackImg}
@@ -102,9 +101,7 @@ const ProductsSection = ({ title = "", filters }) => {
 
             <hr className="border border-light-gray" />
 
-            {/* Content area — flex-1 pushes the button to the bottom */}
             <div className="font-nunito font-bold flex flex-col gap-0.5 p-2 mb-3 flex-1">
-              {/* line-clamp-2 caps name at 2 lines; min-h reserves that space for short names */}
               <h1 className="text-midnight-ink text-xl line-clamp-2">
                 {item?.name}
               </h1>
